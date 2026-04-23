@@ -6,7 +6,6 @@ import { FaEye } from "react-icons/fa";
 import { IoIosStar } from "react-icons/io";
 
 const NewsCard = ({ news }) => {
-  console.log(news, "news");
   return (
     <div className="card bg-base-100 shadow-sm">
       <div className="card-body">
