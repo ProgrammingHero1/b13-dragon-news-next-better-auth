@@ -30,6 +30,7 @@ const LoginPage = () => {
     if (error) {
       alert(error.message);
     }
+    
 
     if (res) {
       alert("Signin successful");
